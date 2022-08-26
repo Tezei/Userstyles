@@ -1,0 +1,16 @@
+@-moz-document domain("dir.bg"){
+#screening-DIV > div > div:nth-child(1),
+#screening-DIV > div > div:nth-child(2), .header-hero, #gdpr-consent-tool-wrapper, .banner {
+    display: none;
+}
+
+.inner-wrapper {
+    width: 100%;
+    margin: 5px;
+}
+
+.top-section {
+    background-image: none;
+    padding-top: 100px;
+}
+}

@@ -1,0 +1,14 @@
+div[data-google-query-id],
+div[class*='podcast'],
+div[class*='bell'],
+div[class*='social'],
+div[class*='topic'],
+div[class*='banner'],
+div[class*='tags'],
+div[class*='poll'],
+div[class*='comment'],
+div[class*='recipes'],
+div[id="gdpr-consent-tool-wrapper"],
+iframe, .banner {
+    display: none;
+}
