@@ -8,7 +8,9 @@ div[class*='tags'],
 div[class*='poll'],
 div[class*='comment'],
 div[class*='recipes'],
-div[id="gdpr-consent-tool-wrapper"],
-iframe, .banner {
+div[id="gdpr-consent-tool-wrapper"], 
+div[data-ub-carousel], 
+.exclusive-podcast-bar, 
+.ub-notification-ad {
     display: none;
 }
