@@ -1,7 +1,7 @@
 @-moz-document domain("dir.bg"){
 #screening-DIV > div > div:nth-child(1),
 #screening-DIV > div > div:nth-child(2), .header-hero, #gdpr-consent-tool-wrapper, .banner,
-div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard {
+div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar {
     display: none;
 }
 
@@ -13,5 +13,9 @@ div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderb
 .top-section {
     background-image: none;
     padding-top: 100px;
+}
+.main-section, .main-section-homme-top{
+		width: auto;
+	}
 }
 }

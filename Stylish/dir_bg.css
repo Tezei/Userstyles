@@ -12,6 +12,10 @@ div[id="gdpr-consent-tool-wrapper"],
 iframe, .banner, 
 div[data-ub-carousel], 
 .exclusive-podcast-bar, 
-.ub-notification-ad, .px2_leaderboard, .px2_billboard {
+.ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar {
     display: none;
 }
+
+.main-section, .main-section-homme-top{
+		width: auto;
+	}
