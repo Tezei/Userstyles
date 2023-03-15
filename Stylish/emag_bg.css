@@ -1,12 +1,14 @@
-.gdpr-cookie-banner,
-.js-gdpr-cookie-banner,
-.gdpr-cookie-banner.show,
-.ns-wrap-bottom-right,
-.cookie-banner-content,
-.ns-wrap-bottom-right,
-.cookie-banner-content,
-.sell-with-emag,
-.widget-newsletter,
-.footer-aux {
-    display: none !important;
+@-moz-document domain("emag.bg"){
+  .gdpr-cookie-banner,
+  .js-gdpr-cookie-banner,
+  .gdpr-cookie-banner.show,
+  .ns-wrap-bottom-right,
+  .cookie-banner-content,
+  .ns-wrap-bottom-right,
+  .cookie-banner-content,
+  .sell-with-emag,
+  .widget-newsletter,
+  .footer-aux, .widget-banner, .sell-with-emag, .download-app-container{
+      display: none !important;
+  }
 }

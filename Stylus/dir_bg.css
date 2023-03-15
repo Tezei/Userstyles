@@ -1,21 +1,21 @@
-@-moz-document domain("dir.bg"){
-#screening-DIV > div > div:nth-child(1),
-#screening-DIV > div > div:nth-child(2), .header-hero, #gdpr-consent-tool-wrapper, .banner,
-div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar {
+div[data-google-query-id],
+div[class*='podcast'],
+div[class*='bell'],
+div[class*='social'],
+div[class*='topic'],
+div[class*='banner'],
+div[class*='tags'],
+div[class*='poll'],
+div[class*='comment'],
+div[class*='recipes'],
+div[id="gdpr-consent-tool-wrapper"],
+iframe, .banner, 
+div[data-ub-carousel], 
+.exclusive-podcast-bar, 
+.ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar {
     display: none;
 }
 
-.inner-wrapper {
-    width: 100%;
-    margin: 5px;
-}
-
-.top-section {
-    background-image: none;
-    padding-top: 100px;
-}
 .main-section, .main-section-homme-top{
 		width: auto;
 	}
-}
-}
