@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name         DOX BG
+@version      20220807.11.22
+@namespace    userstyles.world/user/tezei
+@description  Here is a style for famous bulgarian news dox.bg. Cleans some things.
+@author       tezei
+@license      No License
+==/UserStyle== */
+
+@-moz-document domain("dox.abv.bg") {
+aside, app-footer {
+     display: none;
+}
+
+.dox-mainWrapper {
+    padding-top: 30px !important;
+}
+}
