@@ -1,0 +1,11 @@
+@-moz-document domain("dox.abv.bg") {
+aside, app-footer {
+     display: none;
+}
+
+.dox-mainWrapper {
+    padding-top: 30px !important;
+}
+}
+
+Review
