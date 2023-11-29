@@ -1,7 +1,7 @@
 @-moz-document domain("dir.bg"){
 #screening-DIV > div > div:nth-child(1),
 #screening-DIV > div > div:nth-child(2), .header-hero, #gdpr-consent-tool-wrapper, .banner,
-div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar {
+div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar, [id^=div-gpt-ad] {
     display: none;
 }
 
