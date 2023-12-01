@@ -1,0 +1,6 @@
+@-moz-document domain("dnevnik.bg") {
+.banner-box,
+.social {
+    display: none;
+}
+}
