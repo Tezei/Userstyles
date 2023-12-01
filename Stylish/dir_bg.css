@@ -1,21 +1,36 @@
-@-moz-document domain("dir.bg"){
-#screening-DIV > div > div:nth-child(1),
-#screening-DIV > div > div:nth-child(2), .header-hero, #gdpr-consent-tool-wrapper, .banner,
-div[data-ub-carousel], .exclusive-podcast-bar, .ub-notification-ad, .px2_leaderboard, .px2_billboard, .side-bar, [id^=div-gpt-ad] {
-    display: none;
-}
+@-moz-document domain("dir.bg") {
+    #screening-DIV > div > div:nth-child(1),
+    #screening-DIV > div > div:nth-child(2),
+    .header-hero,
+    #gdpr-consent-tool-wrapper,
+    .banner div[data-ub-carousel],
+    .exclusive-podcast-bar,
+    .ub-notification-ad,
+    .px2_leaderboard,
+    .px2_billboard,
+    .side-bar,
+    [id^=div-gpt-ad],
+    [id^=taboola],
+    .banner,
+    #newsletter-main-block,
+    .article-banners,
+    #newsletter-anchor-block,
+    .mostread-slider-master,
+    .accent-block,
+    .topics-block, .article-share-btns {
+        display: none;
+    }
 
-.inner-wrapper {
-    width: 100%;
-    margin: 5px;
-}
+    .inner-wrapper {
+        width: 100%;
+        margin: 5px;
+    }
 
-.top-section {
-    background-image: none;
-    padding-top: 100px;
-}
-.main-section, .main-section-homme-top{
-		width: auto;
-	}
-}
+    .top-section {
+        background-image: none;
+        padding-top: 100px;
+    }
+    .main-section {
+        padding-top: 300px;
+    }
 }
