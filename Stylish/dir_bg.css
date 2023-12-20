@@ -32,5 +32,14 @@
     }
     .main-section {
         padding-top: 300px;
+        width: 70%;
+    }
+
+    .most-recent-articles {
+        width: 33%;
+        position: absolute;
+        top:  110px;
+        float: right;
+        left: 64%;
     }
 }
