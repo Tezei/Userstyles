@@ -17,7 +17,7 @@
     #newsletter-anchor-block,
     .mostread-slider-master,
     .accent-block,
-    .topics-block, .article-share-btns, #txkLWHHBLC, #horizontal1 {
+    .topics-block, .article-share-btns, #txkLWHHBLC, #horizontal1, body > div:nth-child(2), #main > div:nth-child(24), #main > div.section.dirmarket-section, #main > div:nth-child(20) {
         display: none;
     }
 
@@ -31,8 +31,12 @@
         padding-top: 100px;
     }
     .main-section {
-        padding-top: 300px;
+        padding-top: 0px;
         width: 70%;
+    }
+
+    .article-main-section {
+        margin-top: 320px !important;
     }
 
     .most-recent-articles {
